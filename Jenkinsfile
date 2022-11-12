@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('code checkout from GitHub'){
             steps{
-                git 'https://github.com/Abhilash-1201/NodeJsBoilerplateCode.git'
+                git 'https://github.com/AWSDevOps-1201/NodeJsBoilerplateCode.git'
             }
         }
         stage('Code Quality Check via SonarQube'){
